@@ -4,7 +4,7 @@ body {
     justify-content: space-between;
     margin: 0px;
     font-family: Roboto;
-    gap: 50px;
+    gap: 0px;
 }
 
 .header {
@@ -88,16 +88,20 @@ button, .blue-box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0px;
     margin: 0;
+    padding-bottom: 50px;
 }
 
 .sections {
     display: flex;
     justify-content: center;
     align-items:center;
-    padding: 50px;
-    width: 60%;
+    gap: 0px;
+    padding: 10px;
+    width: 30%;
+    background-color: antiquewhite;
 }
 
 .section-title {
@@ -115,6 +119,7 @@ button, .blue-box {
 .content{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -157,7 +162,7 @@ button, .blue-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .blue-box {
@@ -200,6 +205,6 @@ button, .blue-box {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    font-size: smaller;
-    font-weight: 100;
+    font-size: small;
+    font-weight: 400;
 }
